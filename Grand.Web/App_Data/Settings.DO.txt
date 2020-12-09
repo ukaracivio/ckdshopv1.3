@@ -1,0 +1,2 @@
+DataProvider: mongodb
+DataConnectionString: mongodb://ckdAdmin:Q1w2e3@174.138.4.250:27017/ckdshop
