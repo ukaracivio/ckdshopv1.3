@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>UNIT-SOFT Sp. z o.o.</Authors>
     <Company>UNIT-SOFT Sp. z o.o.</Company>
     <Copyright>Copyright © UNIT-SOFT Sp. z o.o.</Copyright>
@@ -29,9 +29,7 @@
     <ProjectReference Include="..\..\Grand.Core\Grand.Core.csproj">
       <Private>false</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\Grand.Data\Grand.Data.csproj">
-      <Private>false</Private>
-    </ProjectReference>
+    <ProjectReference Include="..\..\Grand.Domain\Grand.Domain.csproj" />
     <ProjectReference Include="..\..\Grand.Framework\Grand.Framework.csproj">
       <Private>false</Private>
     </ProjectReference>
