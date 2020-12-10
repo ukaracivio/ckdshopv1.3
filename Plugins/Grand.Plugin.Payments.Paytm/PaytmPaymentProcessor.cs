@@ -1,7 +1,7 @@
 using Grand.Core;
-using Grand.Core.Domain.Directory;
-using Grand.Core.Domain.Orders;
-using Grand.Core.Domain.Payments;
+using Grand.Domain.Directory;
+using Grand.Domain.Orders;
+using Grand.Domain.Payments;
 using Grand.Core.Plugins;
 using Grand.Plugin.Payments.Paytm.Controllers;
 using Grand.Services.Common;
