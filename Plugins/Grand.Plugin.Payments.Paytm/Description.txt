@@ -1,0 +1,8 @@
+﻿Group: Payment methods
+FriendlyName: Paytm
+SystemName: Payments.Paytm
+Version: 1.14
+SupportedVersions: 4.40
+Author: Paytm team
+DisplayOrder: 1
+FileName: Grand.Plugin.Payments.Paytm.dll

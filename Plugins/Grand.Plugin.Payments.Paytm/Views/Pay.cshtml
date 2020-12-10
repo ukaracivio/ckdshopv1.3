@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "";
+}
+@model Grand.Plugin.Payments.Paytm.Models.PayModel
+@using Grand.Plugin.Payments.Paytm.Models;
+@using Grand.Web.Framework;
+@using (Html.BeginForm())
+{
+    <div>
+        <div class="editor-field">
+            Txn Failure Reason : @Html.ValueFor(model => model.RespMsg)
+            <br />
+
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("Click here to continue..", "Index", "Home")
+    </div>
+}
